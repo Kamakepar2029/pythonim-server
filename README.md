@@ -1,6 +1,6 @@
 # pythonim-server
 ## Pythonim Server
-### Copy the folowing code:
+### Copy the folowing code amd put into GNU/Linux and then write 'python server.py':
 ```
 sudo -s
 apt install python-pip
