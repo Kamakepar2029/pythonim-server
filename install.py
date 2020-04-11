@@ -1,0 +1,12 @@
+import os
+os.system('sudo -s')
+os.system('apt install python-pip')
+os.system('pip install flask')
+os.system('mkdir pythonim-server')
+os.system('cd pythonim-server')
+os.system('virtualenv env')
+os.system('source env/bin/activate')
+print('Execute command "deactivate" to stop the pythonim-server')
+os.system("cat ../server.py > ./server.py")
+os.system("echo 'Your server will be availible at 127.0.0.1:5000'")
+os.system('python server.py')
