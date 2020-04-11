@@ -1,6 +1,6 @@
 # pythonim-server
-##Pythonim Server
-###Copy the folowing code:
+## Pythonim Server
+### Copy the folowing code:
 ```
 sudo -s
 apt install python-pip
